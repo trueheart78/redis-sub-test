@@ -1,6 +1,6 @@
 # Redis Subscription Test
 
-Using redis pub-sub, this Go code subscribes to two local channels: `nuts` and `butts`.
+Using redis pub-sub, this Go code subscribes to two local channels: `taylor` and `swift`.
 
 ![taylor swift](assets/taylor-swift.gif)
 
@@ -11,17 +11,17 @@ In one terminal, run `go run main.go`. Then, in another, fire up your `redis-cli
 messages:
 
 ```
-PUBLISH nuts "are so good"
-PUBLISH butts "need to be kicked"
-PUBLISH nuts "a squirrel favorite"
+PUBLISH taylor "has the best fans"
+PUBLISH swift "tay tay"
+PUBLISH taylor "shakes it off"
 ```
 
 You should see output in the first terminal
 
 ```
-Message received on 'nuts': are so good
-Message received on 'butts': need to be kicked
-Message received on 'nuts': a squirrel favorite
+Message received on 'taylor': has the best fans
+Message received on 'swift': tay tay
+Message received on 'taylor': shakes it off
 ```
 
 ## Reconnecting

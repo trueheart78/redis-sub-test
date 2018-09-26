@@ -9,8 +9,8 @@ import (
 
 var redisURL = "localhost:6379"
 var redisPass = ""
-var redisChannelA = "nuts"
-var redisChannelB = "butts"
+var redisChannelA = "taylor"
+var redisChannelB = "swift"
 
 func main() {
 	redisdb := redis.NewClient(&redis.Options{
