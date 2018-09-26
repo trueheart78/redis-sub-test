@@ -2,7 +2,7 @@
 
 Using redis pub-sub, this Go code subscribes to two local channels: `nuts` and `butts`.
 
-![squirrel girl](assets/squirrel-girl.gif)
+![taylor swift](assets/taylor-swift.gif)
 
 
 ## Usage
