@@ -1,6 +1,7 @@
 # Redis Subscription Test
 
-Using redis pub-sub, this Go code subscribes to two local channels: `taylor` and `swift`.
+Using redis pub-sub, this Go code subscribes to two local Redis channels: `taylor` and `swift`.
+It then uses an unbuffered channel in Go to monitor incoming messages.
 
 ![taylor swift](assets/taylor-swift.gif)
 
